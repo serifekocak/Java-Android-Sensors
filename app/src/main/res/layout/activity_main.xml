@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/firstLayout">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/xValue"/>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/yValue"/>
+
+        <TextView
+            android:id="@+id/zValue"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/secondLayout"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/firstLayout">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/xGyroValue"/>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/yGyroValue"/>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/zGyroValue"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/thirdLayout"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/secondLayout">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/xMagnoValue"/>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/yMagnoValue"/>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/zMagnoValue"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fourthLayout"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/thirdLayout">
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/light"/>
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pressure"/>
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/temp"/>
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/humi"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
